@@ -31,7 +31,7 @@ from main_window import MainWindow
 
 def main() -> int:
     app = QApplication(sys.argv)
-    app.setApplicationName("游戏像素测距")
+    app.setApplicationName("游戏地图测距工具")
     window = MainWindow()
     window.show()
     return app.exec()

@@ -1,4 +1,4 @@
-# 游戏像素测距工具（Game Pixel Ruler）
+# 游戏地图测距工具（Game Map Ruler）
 
 Windows 置顶小面板工具：热键按下瞬间取鼠标位置为像素点，两次按键完成一次测距。
 纯屏幕级工具，不注入、不修改游戏进程。
@@ -87,7 +87,7 @@ python -m unittest discover -s tests -v   # 或 pytest tests
 ## 项目结构
 
 ```
-game-pixel-ruler/
+game-map-ruler/
 ├── main.py           # 入口（DPI 感知 → QApplication → 主窗口）
 ├── main_window.py    # 置顶 HUD 面板、WM_HOTKEY 处理、状态机驱动
 ├── hotkey.py         # 热键映射/注册/捕获对话框

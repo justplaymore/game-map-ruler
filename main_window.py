@@ -95,7 +95,7 @@ class MainWindow(QWidget):
         self._last_target_hwnd: Optional[int] = None
         self._drag_offset: Optional[QPoint] = None
 
-        self.setWindowTitle("游戏像素测距")
+        self.setWindowTitle("游戏地图测距工具")
         self.setWindowFlags(
             Qt.WindowType.FramelessWindowHint
             | Qt.WindowType.WindowStaysOnTopHint
@@ -129,7 +129,7 @@ class MainWindow(QWidget):
 
         # 标题行
         head = QHBoxLayout()
-        title = QLabel("游戏像素测距")
+        title = QLabel("游戏地图测距工具")
         title.setStyleSheet("font-weight: bold; font-size: 11pt;")
         self.btn_close = QToolButton()
         self.btn_close.setText("✕")
