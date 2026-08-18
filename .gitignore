@@ -1,0 +1,7 @@
+# 本地运行数据（热键、校准比例等个人配置）
+config.json
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.venv/
