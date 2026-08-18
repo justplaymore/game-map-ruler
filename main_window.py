@@ -1,3 +1,18 @@
+# Copyright (C) 2026 justplaymore
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 """置顶 HUD 主窗口：数值显示、状态机驱动、全局热键处理。
 
 无边框半透明置顶面板，显示四项数值（基准像素距离、基准实际距离、

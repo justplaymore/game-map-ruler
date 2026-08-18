@@ -72,6 +72,12 @@ python main.py
 4. 面板在游戏中保持置顶、可拖动；置顶开关生效；关闭后重新打开配置保留；
 5. 改绑热键后新键生效，重启后保留。
 
+## 许可证
+
+[GPL-3.0](LICENSE) © 2026 justplaymore
+
+本项目以 GNU General Public License v3.0 发布：您可以自由使用、修改和分发本软件，但**衍生作品必须同样以 GPL-3.0 开源**；允许商业使用，前提是必须开源。详见 [LICENSE](LICENSE) 全文。
+
 ## 测试
 
 ```powershell

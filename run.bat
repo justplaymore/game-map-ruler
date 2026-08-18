@@ -1,4 +1,7 @@
 @echo off
+
+rem Copyright (C) 2026 justplaymore
+rem SPDX-License-Identifier: GPL-3.0-or-later
 rem ============================================================
 rem  Game Pixel Ruler - launcher
 rem  Auto-detects Python 3.10+ (py launcher, then PATH python),
