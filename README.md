@@ -17,13 +17,18 @@ Windows 置顶小面板工具：热键按下瞬间取鼠标位置为像素点，
 
 ## 安装与运行
 
+需要 Python 3.10+（已加入 PATH，或使用 Windows 官方 `py` 启动器）。
+
 ```powershell
-# 需要 Python 3.10+（本机环境: H:\Dev\Python312\python.exe）
-H:\Dev\Python312\python.exe -m pip install -r requirements.txt
-H:\Dev\Python312\python.exe main.py
+# 二选一：使用 py 启动器（推荐），或 PATH 中的 python
+py -3 -m pip install -r requirements.txt
+py -3 main.py
+# 或者：
+python -m pip install -r requirements.txt
+python main.py
 ```
 
-也可直接双击/运行 `run.bat`（自动使用 H:\Dev\Python312；未安装时脚本会提示错误并退出）。
+也可直接双击/运行 `run.bat`：脚本会自动探测 Python（优先 `py` 启动器，其次 PATH 中的 `python`），无需手动指定路径；未找到 Python 3.10+ 时会提示安装方法并退出。
 
 ## 使用说明
 
